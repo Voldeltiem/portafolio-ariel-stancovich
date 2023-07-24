@@ -1,21 +1,63 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import desafio1 from "../assets/img/desafio 3.png"
 
 function Projects() {
+  
   return (
     <div className="project">
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+      <div>
+      <Card className="card-project" style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={desafio1} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Iguana Page</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Proyecto realizado en desafio Latam
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          
         </Card.Body>
       </Card>
+      
+      </div>
+      <div>
+      <Card className="card-project" style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={desafio1} />
+        <Card.Body>
+          <Card.Title>Iguana Page</Card.Title>
+          <Card.Text>
+            Proyecto realizado en desafio Latam
+          </Card.Text>
+          <Card.Link href="../Projects/desafio 3/index.html" target="_blank">Ir al Proyecto</Card.Link>
+        </Card.Body>
+      </Card>
+      
+      </div>
+      <div>
+      <Card className="card-project" style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={desafio1} />
+        <Card.Body>
+          <Card.Title>Iguana Page</Card.Title>
+          <Card.Text>
+            Proyecto realizado en desafio Latam
+          </Card.Text>
+          <Card.Link href="../Projects/desafio 3/index.html" target="_blank">Ir al Proyecto</Card.Link>
+        </Card.Body>
+      </Card>
+      
+      </div>
+      <div>
+      <Card className="card-project" style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={desafio1} />
+        <Card.Body>
+          <Card.Title>Iguana Page</Card.Title>
+          <Card.Text>
+            Proyecto realizado en desafio Latam
+          </Card.Text>
+          <Card.Link href=".../Projects/desafio 3/index.html" target="_blank">Ir al Proyecto</Card.Link>
+        </Card.Body>
+      </Card>
+      
+      </div>
     </div>
   );
 }

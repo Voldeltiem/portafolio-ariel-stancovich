@@ -132,7 +132,10 @@ body {
 .project {
   margin: 1em;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap:0.5vmin;
+  padding: 1em;
 }
 .logoReparacion {
   transition: filter 1s;
@@ -157,11 +160,14 @@ body {
   object-fit: contain;
   width: 50vh;
   height: 50vh;
-  border-radius: 45%;
+  border-radius: 50%;
 }
 .Contenedor{
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
+}
+.card-project{
+  margin: 1em;
 }

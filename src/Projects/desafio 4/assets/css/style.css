@@ -1,0 +1,61 @@
+*{
+    font-family:roboto
+}
+.navColor
+{
+    background-color: #28A745;
+}
+.card{
+    margin-bottom: 30px;
+    margin-right:21px;
+    margin-left: 21px;
+}
+section{
+    margin: 0;
+    margin-top: 47px;
+    background-color: #28A745;
+    padding: 21px;
+    padding-top: 25px;
+
+}
+.form-label{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 21px;
+}
+input{
+    color:#707070 ;
+}
+strong{
+    color: #28A745;
+}
+.card-tittle{
+    font-weight: lighter;
+}
+.card-subtitle{
+    font-weight: lighter;
+}
+.text-muted{
+    font-weight: lighter;
+}
+.text-end{
+    font-weight: lighter;
+}
+nav{
+    margin-bottom: 18px;
+}
+footer img{
+   padding-top:24px ;
+   padding-bottom: 10px;
+}
+footer p{
+    color: #707070;
+    font-weight: lighter;
+    padding: 21px;
+    padding-top: 0;
+    padding-bottom: 22px;
+    margin: 0;
+}
+section button{
+    padding: 0;
+}

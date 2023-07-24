@@ -1,0 +1,102 @@
+body{
+    font-family: raleway;
+    background-color: #000000;
+}
+header h1{
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    border: 0;
+    padding-left: 530px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.imgHeader{
+    height: 727px;
+}
+article{
+    display: flex;
+
+}
+.imgArticle{
+    height: 237px;
+    padding-bottom: 66px;
+    padding-top: 45px;
+}
+article{
+    background-color: #000000;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+article p{
+    color: #ffffff;
+    text-align: left;
+    padding-right:106px ;
+    padding-top: 76px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.caracteristicas{
+    background-color: #1E1A13;
+    height: 348px;    
+}
+.caracteristicas h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 47px;
+    font-weight:normal;
+    margin-top: 0px;
+
+}
+
+.caracteristicas p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 74px;
+    margin: 0px;
+}
+
+.caracteristicas i{
+    color: #ffffff;
+    font-size: 58px;
+}
+.caracteristicas .icono{
+    display: inline-block;
+    float: left;
+    margin-left: 182px;
+    text-align: center;
+}
+.galeria{
+    display: flex;
+    padding: 73px;
+    padding-left: 142;
+    padding-right: 142;
+    background-color: black;
+}
+.imgSection{
+    height: 202px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+footer{
+    height: 102px;
+    margin-bottom: 0px;
+}
+footer p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    padding: 299px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin: 0;
+    background-color: #1E1A13;
+    margin-bottom: 0px;
+}
+.todosLosIconos{
+    margin: 50px;
+}
+
