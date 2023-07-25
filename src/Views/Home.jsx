@@ -5,7 +5,7 @@ import { FaLinkedin,FaGithub,FaFacebookSquare,FaInstagramSquare,FaTwitterSquare 
 export default function Home() {
   
   return (
-    <div className="Contenedor">
+    
       <div className="conteiner-home">
         <div className="conteiner-perfil">
           <img
@@ -23,14 +23,15 @@ export default function Home() {
             nuevos desafíos.
           </p>
         </div>
-      </div>
-      <div className="conteiner-RRSS">
+        <div className="conteiner-RRSS">
       <a href="https://www.linkedin.com/in/ariel-stancovich/" target="_blank"><FaLinkedin /></a>
       <a href="https://github.com/Voldeltiem" target="_blank"><FaGithub /></a>
       <a href="https://www.facebook.com/profile.php?id=100017511408417" target="_blank"><FaFacebookSquare /></a>
       <a href="https://www.instagram.com/a.stancovich/?hl=es-la" target="_blank"><FaInstagramSquare /></a>
       <a href="https://twitter.com/StancovichA" target="_blank"><FaTwitterSquare /></a>
       </div>
-    </div>
+      </div>
+      
+    
   );
 }
